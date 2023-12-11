@@ -1,3 +1,4 @@
+import Link from "next/link";
 import homeImg from "../public/home.jpg";
 import Image from "next/image";
 
@@ -23,12 +24,14 @@ export default function Home() {
             Your AI companion for crafting perfect job descriptions in the
             hospitality industry.
           </p>
-          <button
+
+          <Link
+            href="/jobs"
             className="mt-10 text-2xl bg-blue-500 hover:bg-blue-600 
-          text-white font-bold py-2 px-4 rounded-md"
+          text-white font-bold py-4 px-6 rounded-lg "
           >
-            Button
-          </button>
+            Get Started
+          </Link>
         </main>
       </div>
     </div>

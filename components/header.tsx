@@ -8,9 +8,7 @@ export default function Header() {
           Home
         </Link>
         <div className="space-x-4 text-xl">
-          <Link href="/performance">Performance</Link>
-          <Link href="/reliability">Reliability</Link>
-          <Link href="/scale">Scale</Link>
+          <Link href="/jobs">Jobs</Link>
         </div>
       </nav>
     </div>
